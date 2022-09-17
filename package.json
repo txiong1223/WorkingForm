@@ -1,0 +1,28 @@
+{
+  "name": "vuetiful-form",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 2525"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "json-server": "^0.17.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.19.1",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.0"
+  }
+}
